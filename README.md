@@ -12,7 +12,7 @@ Salam.
 
 # Proyektin şeması : 
 
----| analysis_of_production_data
+---| analysis_of_production_data \n
 --------| data
 ------------|  Azerbaijan_crops_and_livestocs_products.csv
 ------------| Azerbaijan_Value_of_Agricultural_Production.csv
