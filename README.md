@@ -102,3 +102,8 @@ Məlumat setinin mənbəyi : World Data Bank(inflation_azerbaijan)
 
 Məlumat setinin mənbəyi :Birləşmiş Millətlər Təşkilatının Ərzaq və Kənd Təsərrüfatı Qurumu (Food and Agriculture Organization of the United Nations) https://www.fao.org/(other csv documents)
 
+# Lisenziya
+
+This project is licensed under the MIT license. For detailed information, please refer to the [LICENSE](LICENSE) file.
+
+
