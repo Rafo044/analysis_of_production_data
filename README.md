@@ -4,7 +4,9 @@
 
 Salam.
 
-# Bu məlumat setində bu sorgulara cavab tapmışam : 
+Bu notebook fayllarında mən Bitki və Heyvan mənşəli məhsulların Azərbaycanda istehsalının həcmi üzərinə bəzi visuallaştırmalar,qarşılaştırmalar etmişəm.Məlumatın(csv faylların) mənbəsini ən sonda qeyd etmişəm.
+
+# Bu  sorgulara cavab tapmışam : 
 1. İstehsal həcminə görə Top20 də olan məsulların illər üzrə dəyişimini regresiyon analizi və qrafik olaraq göstərmişəm.[1992-2022]
 2. iki zaman intervalında(Mən 1992-1996,2017-2022 seçmişəm) istehsal olunmuş məsulların statistiki olarak məna əlaqəsinin olub olmadığını yoxlanılıb.(T-test)
 3. İnflyasiyanın illər üzrə istehsala təsiri.
