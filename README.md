@@ -12,15 +12,15 @@ Salam.
 
 # Proyektin şeması : 
 
----| analysis_of_production_data
---------| data
-------------|  Azerbaijan_crops_and_livestocs_products.csv
-------------| Azerbaijan_Value_of_Agricultural_Production.csv
-------------| inflation_azerbaijan.csv
---------| impact_inflation_prod.ipynb
---------| ttest.ipynb
---------| regression_and_trend_analysis.ipynb
---------| README.md
+ --| analysis_of_production_data
+ -------| data
+ -----------|  Azerbaijan_crops_and_livestocs_products.csv
+ -----------| Azerbaijan_Value_of_Agricultural_Production.csv
+ -----------| inflation_azerbaijan.csv
+ -------| impact_inflation_prod.ipynb
+ -------| ttest.ipynb
+ -------| regression_and_trend_analysis.ipynb
+ -------| README.md
 
 
 
