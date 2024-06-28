@@ -6,7 +6,7 @@ def read_requirements():
         return f.read().splitlines()
 
 setup(
-    name='analysis_project',
+    name='analysis_of_production_data',
     version='0.1',
     author='Rafael Alikhanli',
     author_email='rafo044@protonmail.com',
