@@ -13,18 +13,27 @@ Salam.
 # Proyektin şeması : 
 
 ---| analysis_of_production_data 
+
 --------| data
+
 ------------|  Azerbaijan_crops_and_livestocs_products.csv
+
 ------------| Azerbaijan_Value_of_Agricultural_Production.csv
+
 ------------| inflation_azerbaijan.csv
+
 --------| impact_inflation_prod.ipynb
+
 --------| ttest.ipynb
+
 --------| regression_and_trend_analysis.ipynb
+
 --------| README.md
 
 
 
 
+-------------------
 
  # Sütun adlarının mənaları : 
 
@@ -46,6 +55,7 @@ Salam.
 |Flag Description | Məlumatın güvənirliyinə dair kateqoriyanın açıqlamasıdır |
 | Note  | Əlavə açıqlamaları bildirir |
 
+---------------
 
 
 # Açıqlamaya ehtiyac olunan sətirlərlərdə olan dəyərlər  : 
@@ -58,6 +68,7 @@ Məlumatın necə toplanmasındakı qaynaqların izahı(Flag Description) :
 | Missing value (data cannot exist, not applicable) | Mövcud olmayan verilənlər |
 | Official figure | Rəsmi mənbələrdən alınan məlumatlar |
 
+----------------
 
 
 | Sahənin adı | Mənası |
@@ -83,6 +94,7 @@ inflation_rate --- İnflyasiya dərəcəsi
 Məhsulların istehsalına inflyasiyanın təsiri \(_{2020}\) = Gross Production Value (current thousand SLC)\(_{2020}\) \(\times\) (1 + İnflyasiya dərəcəsi\(_{2020}\))
 
 
+-----------------
 
 
 # Mənbə : 
