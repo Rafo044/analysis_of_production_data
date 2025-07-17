@@ -60,8 +60,8 @@ analysis_of_production_data/
 
 
 
-    Column Name Meanings (From CSV Files)
-Column Name	Meaning
+## Column Name Meanings (From CSV Files)
+### Column Name	Meaning
 |Domain  Code	|Code of the data domain |
 |---------------|-----------------------|
 |Domain	|Name of the data domain|
@@ -79,7 +79,7 @@ Column Name	Meaning
 |Flag Description	|Description of quality flag|
 |Note	|Additional explanations|
 
-     ### Flag Descriptions (Data Quality)
+### Flag Descriptions (Data Quality)
 |Flag Description|	Meaning|
 |----------------|--------|
 |Imputed value|	Statistically estimated data|
@@ -88,7 +88,7 @@ Column Name	Meaning
 |Missing value	|Data does not exist or is not applicable|
 |Official figure	|Data from official sources|
 
-    ###Element Descriptions
+###E lement Descriptions
 |Element|	Meaning|
 |-------|----------|
 |Area harvest|	Harvest area of the product|
@@ -101,7 +101,7 @@ Column Name	Meaning
 |inflation_rate	|Yearly inflation rate|
 |Gross Production Value (current thousand SLC)|	Production value in local currency (current prices)|
 
-    Note:
+## Note:
 
     "Gross Production Value (current thousand SLC)" means the monetary value of production using current prices.
 
@@ -114,13 +114,12 @@ Formula:
 Impact of inflation on production (2020) = 
 Gross Production Value (2020) × (1 + Inflation Rate (2020))
 
-     Data Sources
+## Data Sources
 
          FAO - Food and Agriculture Organization of the United Nations
 
          World Bank (for inflation data)
-
-     License
+## License
 
 This project is licensed under the MIT License.
 See the ![LICENSE](https://github.com/Rafo044/analysis_of_production_data?tab=MIT-1-ov-file) file for more information.
