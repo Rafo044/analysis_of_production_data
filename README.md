@@ -13,7 +13,7 @@ Main Questions Answered
     I analyzed how inflation affects agricultural production in different years.
 
  Project Structure
-
+```markdown
 analysis_of_production_data/
 │
 ├── data/
@@ -33,6 +33,7 @@ analysis_of_production_data/
 ├── ttest.ipynb
 ├── regression_and_trend_analysis.ipynb
 └── README.md
+```
 
 ----------
 <table>
@@ -61,39 +62,45 @@ analysis_of_production_data/
 
     Column Name Meanings (From CSV Files)
 Column Name	Meaning
-Domain Code	Code of the data domain
-Domain	Name of the data domain
-Area Code (M49)	Country code (M49 standard)
-Area	Country name
-Element Code	Code of measured variable
-Element	Type of measured value
-Item Code (CPC)	Product code
-Item	Product name
-Year Code	Year code
-Year	Production year
-Unit	Measurement unit
-Value	The data value
-Flag	Quality category flag (1 letter)
-Flag Description	Description of quality flag
-Note	Additional explanations
-     Flag Descriptions (Data Quality)
-Flag Description	Meaning
-Imputed value	Statistically estimated data
-Estimated value	Estimated with a model and assumptions
-Unofficial value	Data from unofficial sources
-Missing value	Data does not exist or is not applicable
-Official figure	Data from official sources
-    Element Descriptions
-Element	Meaning
-Area harvest	Harvest area of the product
-Yield	Productivity / Efficiency
-Production	Total production volume
-Stocks	Count (number)
-Yield/carcass weight	Carcass weight
-Producing Animals/Slaughtered	Animals produced for slaughter
-Asses	Donkey count in the country (value shown in Value column)
-inflation_rate	Yearly inflation rate
-Gross Production Value (current thousand SLC)	Production value in local currency (current prices)
+|Domain  Code	|Code of the data domain |
+|---------------|-----------------------|
+|Domain	|Name of the data domain|
+|Area Code (M49) |Country code (M49 standard)|
+|Area	|Country name|
+|Element Code	|Code of measured variable|
+|Element	|Type of measured value|
+|Item Code (CPC)	|Product code|
+|Item	|Product name|
+|Year Code	|Year code|
+|Year	|Production year|
+|Unit	|Measurement unit|
+|Value	|The data value|
+|Flag	|Quality category flag (1 letter)|
+|Flag Description	|Description of quality flag|
+|Note	|Additional explanations|
+
+     ### Flag Descriptions (Data Quality)
+|Flag Description|	Meaning|
+|----------------|--------|
+|Imputed value|	Statistically estimated data|
+|Estimated value|	Estimated with a model and assumptions|
+|Unofficial value|	Data from unofficial sources|
+|Missing value	|Data does not exist or is not applicable|
+|Official figure	|Data from official sources|
+
+    ###Element Descriptions
+|Element|	Meaning|
+|-------|----------|
+|Area harvest|	Harvest area of the product|
+|Yield	|Productivity / Efficiency|
+|Production	|Total production volume|
+|Stocks	|Count (number)|
+|Yield/carcass weight	|Carcass weight|
+|Producing Animals/Slaughtered|	Animals produced for slaughter|
+|Asses	|Donkey count in the country (value shown in Value column)|
+|inflation_rate	|Yearly inflation rate|
+|Gross Production Value (current thousand SLC)|	Production value in local currency (current prices)|
+
     Note:
 
     "Gross Production Value (current thousand SLC)" means the monetary value of production using current prices.
@@ -116,53 +123,4 @@ Gross Production Value (2020) × (1 + Inflation Rate (2020))
      License
 
 This project is licensed under the MIT License.
-See the LICENSE file for more information.
-
-
-
-<img src="matplotlibplotting/images/pillow.gif"  width="600"/>
-----------
-<table>
-  <tr>
-    <td><img src="decomposition_additive model/images/turnover.png" width="600"/></td>
-    <td><img src="decomposition_additive model/images/turnover2.png" width="600"/></td>
-  </tr>
-  <tr>
-    <td><img src="matplotlibplotting/images/plot6.png" width="600"/></td>
-    <td><img src="matplotlibplotting/images/plot7.png" width="600"/></td>
-  </tr>
-</table>
----------
-<table>
-  <tr>
-    <td><img src="Market_profit_damage_analysis/images/comparisonprofitdamage.png" width="600"/></td> 
-    <td><img src="Market_profit_damage_analysis/images/sales_by_category2.png" width="600"/></td>
-  </tr>
-  <tr>
-    <td><img src="matplotlibplotting/images/plot8.png" width="600"/></td>
-    <td><img src="matplotlibplotting/images/plot9.png" width="600"/></td>
-  </tr>
-</table>
-
---------
-</table>
-    <tr>
-    <td><img src="Market_profit_damage_analysis/images/sales_by_month.png" width="600"/></td>
-    <td><img src="MissingDataVisualization/images/missingno_matrix.png" width="600"/></td>
-  </tr>
-  <tr>
-    <td><img src="matplotlibplotting/images/plot4.png" width="600"/></td>
-    <td><img src="matplotlibplotting/images/plot5.png" width="600"/></td>
-  </tr>
-</table>
-<table>
-  <tr>
-    <td><img src="MissingDataVisualization/images/seaborn_heatmap.png" width="600"/></td>
-  </tr>
-  <tr>
-    <td><img src="Pythonda numerik və kateqorik dəyişənlərin bir qrafikdə müqayisəsi/images/relplot.png" width="600"/></td>
-  </tr>
-</table> 
----------
-
-
+See the ![LICENSE](https://github.com/Rafo044/analysis_of_production_data?tab=MIT-1-ov-file) file for more information.
